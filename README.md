@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+1. Todo List 만들기
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

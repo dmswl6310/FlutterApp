@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './list_screen.dart';
 import './pomodoro_screen.dart';
+import './splash_screen.dart';
 
 class FirstScreen extends StatelessWidget {
   const FirstScreen({Key? key}) : super(key: key);
@@ -28,9 +29,12 @@ class FirstScreen extends StatelessWidget {
                   if(index==0) {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) => ListScreen()));
-                  }else{
+                  }else if(index==1){
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) => PomodoroScreen()));
+                  }else {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => SplashScreen()));
                   }
                 });})),
     );

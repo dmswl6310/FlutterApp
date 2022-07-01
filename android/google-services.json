@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394699062973",
+    "project_id": "flutter-data-firebase-e7252",
+    "storage_bucket": "flutter-data-firebase-e7252.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394699062973:android:7a89b0560882a9c1b7c1d4",
+        "android_client_info": {
+          "package_name": "com.example.wow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394699062973-4gsm2nekp34cru5a6as8la8to664jrj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxlVayh637K4mNMiRUwWkRt6vIL7k-hB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394699062973-4gsm2nekp34cru5a6as8la8to664jrj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -37,6 +37,7 @@ dependencies:
   sprintf: ^6.0.0
   fluttertoast: ^8.0.9
   sqflite: ^2.0.2+1
+  http: ^0.13.3
 
 dev_dependencies:
   flutter_test:

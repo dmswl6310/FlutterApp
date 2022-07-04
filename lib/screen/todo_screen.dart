@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import '../models/todo.dart';
 import '../repositories/todo_provider.dart';
+import './new_screen.dart';
 
 class TodoScreen extends StatefulWidget {
   const TodoScreen({Key? key}) : super(key: key);
@@ -33,7 +34,10 @@ class _TodoScreenState extends State<TodoScreen> {
         title: const Text('할 일 목록 앱'),
         actions: [
           InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => NewScreen()));
+            },
             child: Container(
                 padding: const EdgeInsets.all(5),
                 child: Column(
@@ -41,6 +45,7 @@ class _TodoScreenState extends State<TodoScreen> {
                   children: const [
                     Icon(Icons.book),
                     Text('뉴스'),
+
                   ],
                 )),
           )
